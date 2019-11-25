@@ -2,13 +2,14 @@
 #include<conio.h>
 main()
 {
-	int a,n,e;
-	printf("ingresa el a�o actual : ");
-	scanf("%d",&a);
-	printf("ingresa la fecha de nacimiento: ");
-	scanf("%d",&n);
-	e=a-n;
-	printf("la edad aproximada es: %d",e);
+	int currentYear,birthYear,currentAge;
+	printf("ingresa el año actual : ");
+	scanf("%d",&currentYear);
+	printf("ingresa año de nacimiento: ");
+	scanf("%d",&birthYear);
+	currentAge = currentYear - birthYear;
+	printf("la edad aproximada es: %d",currentAge);
 	getch();
 }
+ 
 
